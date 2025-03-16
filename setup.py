@@ -4,7 +4,10 @@ setup(
     name="mood_suggester",
     version="0.1.0",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[
+        "pytest", 
+        "requests"  
+    ],
     author="Hao Yang",
     author_email="hy2640@nyu.edu",
     description="A package to suggest activities based on mood.",
