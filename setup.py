@@ -4,12 +4,9 @@ setup(
     name="mood_suggester",
     version="0.1.0",
     packages=find_packages(),
-    install_requires=[
-        "pytest", 
-        "requests"  
-    ],
-    author="Hao Yang",
-    author_email="hy2640@nyu.edu",
+    install_requires=[],
+    author="Hao Yang, Yukun Dong",
+    author_email="hy2640@nyu.edu, yd2578@nyu.edu",
     description="A package to suggest activities based on mood.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
