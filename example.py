@@ -1,12 +1,12 @@
-from mood_suggester.suggestions import suggest_activity, suggest_music, suggest_food, suggest_quote
+from mood_suggester import activity, book, movie, music
 
 def main():
     mood = input("How are you feeling now？(happy/sad/stressed/bored): ").strip().lower()
     
-    print("\n🎉 activity:", suggest_activity(mood))
-    print("🎵 music:", suggest_music(mood))
-    print("🍽 food:", suggest_food(mood))
-    print("💡 quote:", suggest_quote(mood))
+    print("\n🎉 activity:", activity.recommend_activity(mood))
+    print("🎵 music:", music.recommend_music(mood))
+    print("🍽 movie:", movie.recommend_movie(mood))
+    print("💡 quote:", book.recommend_book(mood))
 
 if __name__ == "__main__":
     main()
