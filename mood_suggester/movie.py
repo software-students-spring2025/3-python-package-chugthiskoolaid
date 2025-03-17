@@ -25,12 +25,7 @@ MOVIE_RECOMMENDATIONS = {
             "Dead Poets Society",
             "A Beautiful Mind",
             "The Bucket List"],
-    "Angry": ["John Wick", 
-              "Mad Max: Fury Road", 
-              "Fight Club", 
-              "Gladiator", 
-              "The Dark Knight"],
-    "Anxiety": ["My Neighbor Totoro", 
+    "Stressed": ["My Neighbor Totoro", 
                 "The Perks of Being a Wallflower", 
                 "Silver Linings Playbook", 
                 "Black Swan", 
@@ -42,7 +37,7 @@ MOVIE_RECOMMENDATIONS = {
                 "The Secret Garden",
                 "Chef",
                 "The Peanut Butter Falcon"],
-    "Calm": ["The Secret Life of Walter Mitty", 
+    "Bored": ["The Secret Life of Walter Mitty", 
              "Call Me by Your Name", 
              "Ponyo", 
              "Spirited Away", 
@@ -53,19 +48,7 @@ MOVIE_RECOMMENDATIONS = {
              "A Ghost Story",
              "Into the Wild",
              "The Farewell",
-             "Moonlight"],
-    "Motivated": ["Rocky", 
-                  "The Social Network", 
-                  "Whiplash", 
-                  "The Wolf of Wall Street", 
-                  "Good Will Hunting",
-                  "Moneyball",
-                  "Ford v Ferrari",
-                  "Steve Jobs",
-                  "Creed",
-                  "The Founder",
-                  "Rush",
-                  "Limitless"]
+             "Moonlight"]
 }
 
 def recommend_movie(mood: str) -> str:
