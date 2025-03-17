@@ -23,9 +23,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install pipenv
         pipenv install --dev
+        pipenv install -e .
+    
+    - name: Set PYTHONPATH
+      run: echo "PYTHONPATH=$PWD" >> $GITHUB_ENV  
+
+
+    - name: Debug environment
+      run: |
+        pipenv run pip list | grep pytest  
+        pipenv run python -c "import sys; print(sys.executable)"  
 
     - name: Run tests
-      run: |
-        pipenv install --dev
-        pipenv run python -m pytest
+      run: pipenv run python -m pytest
       
