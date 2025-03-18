@@ -1,6 +1,6 @@
 import random
 
-#Move recommendations
+#Movie recommendations
 MOVIE_RECOMMENDATIONS = {
     "Happy": ["Inside Out", 
               "La La Land", 
@@ -13,6 +13,7 @@ MOVIE_RECOMMENDATIONS = {
               "Up",
               "Little Miss Sunshine",
               "The Secret Life of Walter Mitty"],
+    
     "Sad": ["The Pursuit of Happyness", 
             "Schindler's List", 
             "Manchester by the Sea", 
@@ -25,6 +26,7 @@ MOVIE_RECOMMENDATIONS = {
             "Dead Poets Society",
             "A Beautiful Mind",
             "The Bucket List"],
+    
     "Stressed": ["My Neighbor Totoro", 
                 "The Perks of Being a Wallflower", 
                 "Silver Linings Playbook", 
@@ -48,7 +50,32 @@ MOVIE_RECOMMENDATIONS = {
              "A Ghost Story",
              "Into the Wild",
              "The Farewell",
-             "Moonlight"]
+             "Moonlight"],
+    
+    "Motivated": ["Rocky", 
+                  "The Social Network", 
+                  "Whiplash", 
+                  "The Pursuit of Happyness", 
+                  "Ford v Ferrari",
+                  "Moneyball",
+                  "Limitless",
+                  "The Wolf of Wall Street",
+                  "Rush",
+                  "Good Will Hunting",
+                  "Coach Carter"],
+    
+    "Angry": ["Joker", 
+              "Fight Club", 
+              "There Will Be Blood", 
+              "A Clockwork Orange", 
+              "John Wick",
+              "Kill Bill: Vol. 1 & 2",
+              "Falling Down",
+              "Taxi Driver",
+              "Mad Max: Fury Road",
+              "Training Day",
+              "The Revenant"]
+
 }
 
 def recommend_movie(mood: str) -> str:
