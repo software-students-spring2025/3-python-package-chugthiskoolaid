@@ -1,11 +1,13 @@
 {
     "_meta": {
         "hash": {
+
             "sha256": "e785fb9187948a216f944de105bcbb675d512a3d7c0120fd74d88536ea51812a"
         },
         "pipfile-spec": 6,
         "requires": {
             "python_version": "3.11"
+
         },
         "sources": [
             {
@@ -16,6 +18,7 @@
         ]
     },
     "default": {},
+
     "develop": {
         "backports.tarfile": {
             "hashes": [
@@ -389,4 +392,5 @@
             "version": "==3.21.0"
         }
     }
+
 }
