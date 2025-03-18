@@ -4,51 +4,14 @@ from mood_suggester.music import recommend_music
 def test_recommend_music_valid_mood():
 
     music = {
-       "happy": ["Pop music", 
-                  "Upbeat electronic music"
-                  "Walking on a Dream",
-                  "Good as Hell",
-                  "The Nights",
-                  "Put Your Records On",
-                  "Can’t Stop the Feeling",
-                  "September",
-                  "Love Me Again"],
-        "sad": ["Soft piano music", 
-                "Lyrical ballads",
-                "The Night We Met",
-                "Fix You",
-                "I Will Follow You into the Dark",
-                "Lost Cause",
-                "When We Were Young",
-                "Wake Me Up When September Ends",
-                "To Build a Home",
-                "The Scientist",
-                "Hard Sometimes"],
-        "stressed": ["Nature sounds", 
-                     "Calm instrumental music",
-                     "Weightless",
-                     "Sunset Lover",
-                     "Holocene",
-                     "Clair de Lune",
-                     "River Flows in You",
-                     "Bloom",
-                     "Opus 23",
-                     "Night Owl",
-                     "Breathe Me",
-                     "Saturn"],
-        "bored": ["Jazz", 
-                  "Rock music",
-                  "Dog Days Are Over",
-                  "Take a Walk",
-                  "Paper Planes",
-                  "Houdini",
-                  "Are You Bored Yet?",
-                  "Go Your Own Way",
-                  "Dance, Dance",
-                  "Young Folks",
-                  "Shut Up and Dance",
-                  "HandClap"]
+        "happy": ["Pop music", "Upbeat electronic music"],
+        "sad": ["Soft piano music", "Lyrical ballads"],
+        "stressed": ["Nature sounds", "Calm instrumental music"],
+        "bored": ["Jazz", "Rock music"],
+        "motivated": ["Eye of the Tiger", "Stronger – Kanye West", "Lose Yourself – Eminem"],
+        "angry": ["Break Stuff - Limp Bizkit", "Killing in the Name - Rage Against the Machine", "Smells Like Teen Spirit - Nirvana"]
     }
+
 
     for mood in music.keys():
         recommended = recommend_music(mood)
