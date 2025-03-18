@@ -9,7 +9,6 @@ pytest = "*"
 requests = "*"
 gitcommitlogger = "*"
 python-dateutil = "*"
-pypz="*"
 
 [dev-packages]
 build = "*"
