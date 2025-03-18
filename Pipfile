@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-
 pytest = "*"
 requests = "*"
 gitcommitlogger = "*"
 python-dateutil = "*"
+pytz = "*"
 
 [dev-packages]
 build = "*"
@@ -17,8 +17,3 @@ pytest = "*"
 
 [requires]
 python_version = ">=3.9,<3.12"
-
-
-
-
-
