@@ -30,6 +30,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install --user pipenv
+          pip install requests
           pipenv --python $(which python)
           pipenv install
       - name: Log pull request opened

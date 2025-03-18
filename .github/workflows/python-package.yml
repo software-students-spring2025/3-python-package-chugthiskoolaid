@@ -25,10 +25,12 @@ jobs:
         pip install python-dateutil
         pip install pytest
         pip install pytz
+        pip install requests
         pipenv --python ${{ matrix.python-version }}
         pipenv install --dev --skip-lock  
         pipenv install -e .  
         pipenv install pytz
+        pipenv install requests
         pipenv run pip list  
 
     - name: Set PYTHONPATH
