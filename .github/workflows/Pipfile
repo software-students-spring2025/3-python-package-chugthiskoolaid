@@ -7,6 +7,8 @@ name = "pypi"
 pytest = "*"
 gitcommitlogger = "*"
 python-dateutil = "*"
+pytz = "*"
+requests = "*"
 
 [dev-packages]
 
