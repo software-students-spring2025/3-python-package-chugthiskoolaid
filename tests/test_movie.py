@@ -8,4 +8,5 @@ def test_recommend_movie():
         assert movie in MOVIE_RECOMMENDATIONS[mood]
 
 def test_invalid_mood():
-    assert recommend_movie("Bored") == "No recommendations available for this mood."
+=======
+    assert recommend_movie("") == "No recommendations available for this mood."

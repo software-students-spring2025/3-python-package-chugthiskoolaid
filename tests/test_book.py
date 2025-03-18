@@ -8,4 +8,4 @@ def test_recommend_book():
         assert book in BOOK_RECOMMENDATIONS[mood]
 
 def test_invalid_mood():
-    assert recommend_book("Bored") == "No recommendations available for this mood."
+    assert recommend_book("") == "No recommendations available for this mood."

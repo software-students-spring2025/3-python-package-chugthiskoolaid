@@ -5,14 +5,9 @@ name = "pypi"
 
 [packages]
 pytest = "*"
-requests = "*"
 gitcommitlogger = "*"
 
 [dev-packages]
-build = "*"
-twine = "*"
-pytest = "*"
 
 [requires]
-python_version = ">=3.9,<3.12"
-
+python_version = "3.11"
