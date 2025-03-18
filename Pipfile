@@ -5,7 +5,20 @@ name = "pypi"
 
 [packages]
 
+pytest = "*"
+requests = "*"
+gitcommitlogger = "*"
+python-dateutil = "*"
+
 [dev-packages]
+build = "*"
+twine = "*"
+pytest = "*"
 
 [requires]
-python_version = "3.9"
+python_version = ">=3.9,<3.12"
+
+
+
+
+
