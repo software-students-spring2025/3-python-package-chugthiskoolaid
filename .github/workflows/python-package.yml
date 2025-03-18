@@ -24,11 +24,11 @@ jobs:
         pip install pipenv
         pip install python-dateutil
         pip install pytest
+        pip install pytz
         pipenv --python ${{ matrix.python-version }}
         pipenv install --dev --skip-lock  
         pipenv install -e .  
         pipenv run pip list  
-        pip install -r .github/workflows/requirements.txt
 
     - name: Set PYTHONPATH
       run: echo "PYTHONPATH=$PWD" >> $GITHUB_ENV  
