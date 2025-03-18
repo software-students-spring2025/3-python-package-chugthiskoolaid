@@ -7,8 +7,11 @@ def test_recommend_music_valid_mood():
         "happy": ["Pop music", "Upbeat electronic music"],
         "sad": ["Soft piano music", "Lyrical ballads"],
         "stressed": ["Nature sounds", "Calm instrumental music"],
-        "bored": ["Jazz", "Rock music"]
+        "bored": ["Jazz", "Rock music"],
+        "motivated": ["Eye of the Tiger", "Stronger – Kanye West", "Lose Yourself – Eminem"],
+        "angry": ["Break Stuff - Limp Bizkit", "Killing in the Name - Rage Against the Machine", "Smells Like Teen Spirit - Nirvana"]
     }
+
 
     for mood in music.keys():
         recommended = recommend_music(mood)

@@ -2,7 +2,7 @@ import pytest
 from mood_suggester.movie import recommend_movie, MOVIE_RECOMMENDATIONS
 
 def test_recommend_movie():
-    moods = ["Happy", "Sad", "Angry", "Anxiety", "Calm", "Motivated"]
+    moods = ["happy", "sad", "stressed", "bored", "motivated","angry"]
     for mood in moods:
         movie = recommend_movie(mood)
         assert movie in MOVIE_RECOMMENDATIONS[mood]
