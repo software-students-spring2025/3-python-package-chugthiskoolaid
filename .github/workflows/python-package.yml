@@ -28,6 +28,7 @@ jobs:
         pipenv --python ${{ matrix.python-version }}
         pipenv install --dev --skip-lock  
         pipenv install -e .  
+        pipenv install pytz
         pipenv run pip list  
 
     - name: Set PYTHONPATH
