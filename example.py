@@ -6,7 +6,7 @@ def main():
     print("\n🎉 activity:", activity.recommend_activity(mood))
     print("🎵 music:", music.recommend_music(mood))
     print("🍽 movie:", movie.recommend_movie(mood))
-    print("💡 quote:", book.recommend_book(mood))
+    print("💡 book:", book.recommend_book(mood))
 
 if __name__ == "__main__":
     main()
