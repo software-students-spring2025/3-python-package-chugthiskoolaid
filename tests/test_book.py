@@ -9,3 +9,5 @@ def test_recommend_book():
 
 def test_invalid_mood():
     assert recommend_book("") == "No recommendations available for this mood."
+    assert recommend_book("excited") == "No recommendations available for this mood."
+    assert recommend_book("so sad") == "No recommendations available for this mood."
