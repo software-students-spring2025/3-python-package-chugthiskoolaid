@@ -1,5 +1,5 @@
 import random
-
+# Dictionary containing activity recommendations based on different moods
 #Movie recommendations
 MOVIE_RECOMMENDATIONS = {
     "Happy": ["Inside Out", 
@@ -79,5 +79,5 @@ MOVIE_RECOMMENDATIONS = {
 }
 
 def recommend_movie(mood: str) -> str:
-    mood = mood.capitalize()  
+    mood = mood.capitalize()  # Ensure consistency in capitalization
     return random.choice(MOVIE_RECOMMENDATIONS.get(mood, ["No recommendations available for this mood."]))

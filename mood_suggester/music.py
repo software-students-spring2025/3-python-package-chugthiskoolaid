@@ -1,6 +1,6 @@
 import random
 
-
+# Dictionary containing activity recommendations based on different moods
 music = {
     "happy": ["Pop music", 
               "Upbeat electronic music",
@@ -74,5 +74,5 @@ music = {
 }
 
 def recommend_music(mood: str) -> str:
-    mood = mood.capitalize()  
+    mood = mood.capitalize()  # Ensure consistency in capitalization
     return random.choice(music.get(mood.lower(), ["Explore a new music genre!"]))

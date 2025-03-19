@@ -1,6 +1,6 @@
 import random
 
-
+# Dictionary containing activity recommendations based on different moods
 ACTIVITY_RECOMMENDATIONS = {
     "happy": ["Go for a walk in the park", 
                 "Attend a friend's party", 
@@ -63,8 +63,16 @@ ACTIVITY_RECOMMENDATIONS = {
               "Engage in a creative activity like painting, writing, or playing a video game to redirect your energy"]
 
 }
- 
+"""
+    Given a mood, recommend a random book from the corresponding category.
+
+    Parameters:
+        mood (str): The user's current mood.
+    
+    Returns:
+        str: A recommended book title.
+"""
 
 def recommend_activity(mood: str) -> str:
-    mood = mood.capitalize()  
+    mood = mood.capitalize()  # Ensure consistency in capitalization
     return random.choice(ACTIVITY_RECOMMENDATIONS.get(mood.lower(), ["Try something new!"]))
