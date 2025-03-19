@@ -63,16 +63,30 @@ python setup.py sdist bdist_wheel
 ```
 see example.py
 ```
-**1. recommend_activity**
+## recommend_activity:
 ```
-user_input = input("Enter a word, phrase, or thought to receive your fortune: ")
-print(get_fortune(user_input))
+How are you feeling now? (happy/sad/stressed/bored/motivated/angry): bored
+
+🎉 activity: Solve a puzzle, play a board game, or try an escape room challenge
 ```
-**2. recommend_book**
+## recommend_book:
+```
+How are you feeling now? (happy/sad/stressed/bored/motivated/angry): happy
 
-**3. recommend_movie**
+📖 book: The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared – Jonas Jonasson
+```
+## recommend_movie:
+```
+How are you feeling now? (happy/sad/stressed/bored/motivated/angry): angry
 
-**4. recommend_music**
+🍽 movie: The Revenant
+```
+## recommend_music:
+```
+How are you feeling now? (happy/sad/stressed/bored/motivated/angry): bored
+
+🎵 music: Young Folks - Peter Bjorn and John
+```
 
 ## Contributing
 We welcome contributions! Here’s how you can help:

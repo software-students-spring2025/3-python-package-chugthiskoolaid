@@ -1,12 +1,22 @@
+import random
 from mood_suggester import activity, book, movie, music
 
 def main():
-    mood = input("How are you feeling now？(happy/sad/stressed/bored): ").strip().lower()
+    mood = input("How are you feeling now? (happy/sad/stressed/bored/motivated/angry): ").strip().lower()
     
-    print("\n🎉 activity:", activity.recommend_activity(mood))
-    print("🎵 music:", music.recommend_music(mood))
-    print("🍽 movie:", movie.recommend_movie(mood))
-    print("💡 quote:", book.recommend_book(mood))
+    # Define categories
+    categories = {
+        "🎉 activity": activity.recommend_activity,
+        "🎵 music": music.recommend_music,
+        "🍽 movie": movie.recommend_movie,
+        "📖 book": book.recommend_book
+    }
+    
+    # Randomly select one category
+    selected_category, recommend_function = random.choice(list(categories.items()))
+    
+    # Generate and display a recommendation from the selected category
+    print(f"\n{selected_category}: {recommend_function(mood)}")
 
 if __name__ == "__main__":
     main()
