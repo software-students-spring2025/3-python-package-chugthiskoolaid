@@ -30,6 +30,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install --user pipenv
+          pip install requests
           pipenv --python $(which python)
           pipenv install
       - name: Log pull request opened
@@ -51,4 +52,4 @@ jobs:
         run: |
           echo $COMMITS > commits.json
           cat commits.json # debugging
-          pipenv run gitcommitlogger -r $(echo $REPOSITORY_URL) -t $(echo $EVENT_TYPE) -i commits.json -o commit_stats.csv -u $(echo $COMMIT_LOG_API) -v
+          pipenv run python -m gitcommitlogger -r $(echo $REPOSITORY_URL) -t $(echo $EVENT_TYPE) -i commits.json -o commit_stats.csv -u $(echo $COMMIT_LOG_API)
