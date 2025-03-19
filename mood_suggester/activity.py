@@ -121,4 +121,5 @@ ACTIVITY_RECOMMENDATIONS = {
 
 def recommend_activity(mood: str) -> str:
     mood = mood.capitalize()  # Ensure consistency in capitalization
+    
     return random.choice(ACTIVITY_RECOMMENDATIONS.get(mood.lower(), ["Try something new!"]))

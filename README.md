@@ -2,6 +2,7 @@
 
 ## Badges
 [![log github events](https://github.com/software-students-spring2025/3-python-package-chugthiskoolaid/actions/workflows/event-logger.yml/badge.svg)](https://github.com/software-students-spring2025/3-python-package-chugthiskoolaid/actions/workflows/event-logger.yml)
+
 [![CI](https://github.com/software-students-spring2025/3-python-package-chugthiskoolaid/actions/workflows/python-package.yml/badge.svg)](https://github.com/software-students-spring2025/3-python-package-chugthiskoolaid/actions/workflows/python-package.yml)
 
 ## Team members
