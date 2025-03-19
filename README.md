@@ -45,8 +45,7 @@ pip install mood-recommender
 from mood_suggester import recommend_activity, recommend_book, recommend_movie, recommend_music
 ```
 ## Virtual Environment & Dependencies
-how to configure and run all parts of your project for any developer on any platform 
-how to set up any environment variables and import any starter data into the database, as necessary, for the system to operate correctly when run.
+
 1️⃣ **Clone the Repository**
 ```
 git clone https://github.com/software-students-spring2025/3-python-package-chugthiskoolaid.git
@@ -78,28 +77,36 @@ python setup.py sdist bdist_wheel
 
 ## Usage Examples
 ```
-see example.py
+For a detailed example of how to use this package, please refer to example.py, which contains comprehensive demonstrations of the available functions. Below is a brief overview of how each function can be used.
 ```
-## recommend_activity:
+## 1. recommend_activity:
 ```
+Feeling restless?  Inspired?  Maybe a little down?  Not sure what to do? Let your emotions guide you! No worries—I have just the right activity to match your mood and help you make the most of your day!
+
 How are you feeling now? (happy/sad/stressed/bored/motivated/angry): bored
 
 🎉 activity: Solve a puzzle, play a board game, or try an escape room challenge
 ```
-## recommend_book:
+## 2. recommend_book:
 ```
+Books have a unique way of reflecting and shaping our emotions.  Whether you're feeling adventurous and craving an epic journey, or simply looking for a heartwarming story to lift your spirits, there’s a perfect book waiting for you.  Tell me how you're feeling, and I'll recommend a story that resonates with your mood and transports you to the world you need most right now!
+
 How are you feeling now? (happy/sad/stressed/bored/motivated/angry): happy
 
 📖 book: The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared – Jonas Jonasson
 ```
-## recommend_movie:
+## 3. recommend_movie:
 ```
+Looking for a movie that fits your emotions? Whether you're in the mood for action, romance, or something uplifting, I’ve got a perfect recommendation just for you!
+
 How are you feeling now? (happy/sad/stressed/bored/motivated/angry): angry
 
 🍽 movie: The Revenant
 ```
-## recommend_music:
+## 4. recommend_music:
 ```
+Music speaks when words can’t. Every mood has a melody to match. Tell me how you're feeling, and I'll find the perfect song to match your vibe and emotions!
+
 How are you feeling now? (happy/sad/stressed/bored/motivated/angry): bored
 
 🎵 music: Young Folks - Peter Bjorn and John
