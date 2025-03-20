@@ -72,7 +72,7 @@ pip install -r .github/workflows/requirements.txt
 
 4️⃣ **Run Tests**
 ```bash
-pytest tests/
+PYTHONPATH=$(pwd) pytest tests/
 ```
 
 5️⃣ **Build the Package**
