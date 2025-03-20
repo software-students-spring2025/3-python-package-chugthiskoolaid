@@ -1,3 +1,13 @@
+
+# This script provides movie recommendations based on different moods.
+# Users can input their mood, and a relevant movie will be suggested.
+
+# Dictionary containing categorized movie recommendations for various moods.
+# Each mood is mapped to a list of movies that match its emotional tone.
+
+# Function to recommend a movie based on the user's mood.
+# It selects a random movie from the corresponding category.
+
 import random
 # Dictionary containing activity recommendations based on different moods
 #Movie recommendations
@@ -15,12 +25,7 @@ MOVIE_RECOMMENDATIONS = {
         "Little Miss Sunshine",
         "The Secret Life of Walter Mitty",
         "Paddington 2",
-        "The Lego Movie",
-        "Ratatouille",
-        "Mamma Mia!",
-        "Enchanted",
-        "500 Days of Summer",
-        "Kiki’s Delivery Service"
+      
     ],
     
     "Sad": [
@@ -34,14 +39,7 @@ MOVIE_RECOMMENDATIONS = {
         "About Time",
         "The Perks of Being a Wallflower",
         "Dead Poets Society",
-        "A Beautiful Mind",
-        "The Bucket List",
-        "Eternal Sunshine of the Spotless Mind",
-        "One Day",
-        "Brokeback Mountain",
-        "My Sister’s Keeper",
-        "Requiem for a Dream",
-        "The Green Mile"
+        
     ],
     
     "Stressed": [
@@ -57,12 +55,7 @@ MOVIE_RECOMMENDATIONS = {
         "The Secret Garden",
         "Chef",
         "The Peanut Butter Falcon",
-        "Cast Away",
-        "The Darjeeling Limited",
-        "The Art of Racing in the Rain",
-        "A Man Called Otto",
-        "Hector and the Search for Happiness",
-        "Marley & Me"
+   
     ],
     
     "Bored": [
@@ -78,12 +71,7 @@ MOVIE_RECOMMENDATIONS = {
         "Into the Wild",
         "The Farewell",
         "Moonlight",
-        "The Grand Budapest Hotel",
-        "Cloud Atlas",
-        "Waking Life",
-        "Her",
-        "The Man Who Knew Infinity",
-        "Everything Everywhere All at Once"
+       
     ],
     
     "Motivated": [
@@ -99,12 +87,7 @@ MOVIE_RECOMMENDATIONS = {
         "Good Will Hunting",
         "Coach Carter",
         "Million Dollar Baby",
-        "The Founder",
-        "Steve Jobs",
-        "The Secret",
-        "Remember the Titans",
-        "The Imitation Game",
-        "Hidden Figures"
+        
     ],
     
     "Angry": [
