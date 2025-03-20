@@ -1,12 +1,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mood_suggester",
-    version="0.1.0",
+
+    name="mood_recommender",
+    version="0.1.2",
     packages=find_packages(),
     install_requires=[],
-    author="Hao Yang, Yukun Dong, Jess liang, Yifan Zhang ",
-    author_email="hy2640@nyu.edu, yd2578@nyu.edu,  yz9016@nyu.edu, jl13594@nyu.edu",
+
+    author="Hao Yang, Yukun Dong, Jess Liang, Yifan Zhang",
+    author_email="hy2640@nyu.edu, yd2578@nyu.edu, jl13594@nyu.edu, yz9016@nyu.edu",
+
+
     description="A package to suggest activities based on mood.",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",

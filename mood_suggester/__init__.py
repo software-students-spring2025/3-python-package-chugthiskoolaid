@@ -1,3 +1,4 @@
+#Import functions
 from .music import recommend_music
 from .movie import recommend_movie
 from .activity import recommend_activity
