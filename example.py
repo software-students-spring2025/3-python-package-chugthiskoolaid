@@ -18,5 +18,6 @@ def main():
     # Generate and display a recommendation from the selected category
     print(f"\n{selected_category}: {recommend_function(mood)}")
 
+
 if __name__ == "__main__":
     main()
