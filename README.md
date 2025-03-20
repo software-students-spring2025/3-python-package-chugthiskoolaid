@@ -1,6 +1,6 @@
 # chugthiskoolaid
 
-Team members: Hao Yang, Yukun Dong, Jess, YifanZzzz
+Team members: Hao Yang, Yukun Dong, Jess Liang, Yifan Zhang
 
 ## TABLE OF CONTENTS
 1. [Description](#description)
