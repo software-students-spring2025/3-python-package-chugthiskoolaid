@@ -1,3 +1,11 @@
+# This script provides movie recommendations based on different moods.
+# Users can input their mood, and a relevant movie will be suggested.
+
+# Dictionary containing categorized movie recommendations for various moods.
+# Each mood is mapped to a list of movies that match its emotional tone.
+
+# Function to recommend a movie based on the user's mood.
+# It selects a random movie from the corresponding category.
 import random
 # Dictionary containing activity recommendations based on different moods
 #Movie recommendations

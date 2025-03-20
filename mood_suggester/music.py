@@ -1,5 +1,12 @@
 import random
+# This script provides music recommendations based on the user's mood.
+# Users input a mood, and the program suggests a song matching the feeling.
 
+# Dictionary containing categorized music recommendations.
+# Each mood is associated with a list of songs that reflect its emotional vibe.
+
+# Function to recommend a song based on the user's mood.
+# It randomly selects a track from the corresponding category.
 # Dictionary containing activity recommendations based on different moods
 music = {
     "happy": ["Pop music", 
