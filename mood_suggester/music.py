@@ -7,6 +7,7 @@ import random
 
 # Function to recommend a song based on the user's mood.
 # It randomly selects a track from the corresponding category.
+
 # Dictionary containing activity recommendations based on different moods
 music = {
     "happy": ["Pop music", 
