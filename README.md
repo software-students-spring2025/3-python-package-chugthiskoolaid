@@ -124,8 +124,8 @@ Click on the **Fork** button at the top-right corner of the repository page.
 
 ### 2️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/mood-recommender.git
-cd mood-recommender
+git clone https://github.com/software-students-spring2025/3-python-package-chugthiskoolaid.git
+cd 3-python-package-chugthiskoolaid
 ```
 
 ### 3️⃣ Create a Virtual Environment
