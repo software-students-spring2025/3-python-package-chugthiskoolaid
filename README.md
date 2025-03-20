@@ -62,7 +62,7 @@ source venv/bin/activate
 ```
 For Windows:
 ```bash
-Windows: venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 3️⃣ **Install Dependencies**
@@ -140,7 +140,7 @@ source venv/bin/activate
 ```
 For Windows:
 ```bash
-Windows: venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 ### 4️⃣ Install Dependencies
