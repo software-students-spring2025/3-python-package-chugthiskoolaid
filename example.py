@@ -1,6 +1,19 @@
 import random
 from mood_suggester import activity, book, movie, music
+# This script randomly selects a recommendation type (activity, book, movie, or music).
+# Users are prompted to enter their current mood, and the program provides a relevant suggestion.
 
+# Dictionary mapping categories (activity, music, movie, book) to their respective recommendation functions.
+
+# Randomly selects one category from the available options.
+
+# Displays a unique message based on the selected category to set the context for the user.
+
+# Prompts the user to input their mood (happy, sad, stressed, bored, motivated, angry).
+
+# Calls the appropriate recommendation function based on the user's mood and selected category.
+
+# Main function execution starts here when the script is run directly.
 def main():
     # Define categories
     categories = {

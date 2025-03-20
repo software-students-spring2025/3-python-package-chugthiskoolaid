@@ -4,7 +4,7 @@ from mood_suggester.music import recommend_music
 def test_recommend_music_valid_mood():
 
     music = {
-        "happy": ["Pop music", 
+    "happy": ["Pop music", 
               "Upbeat electronic music",
               "Walking on a Dream - Empire of the Sun",
               "Good as Hell - Lizzo",
@@ -12,7 +12,15 @@ def test_recommend_music_valid_mood():
               "Put Your Records On - Corinne Bailey Rae",
               "Can’t Stop the Feeling - Justin Timberlake",
               "September - Earth, Wind & Fire",
-              "Love Me Again - John Newman"],
+              "Love Me Again - John Newman",
+                "Happy - Pharrell Williams",
+                "Shut Up and Dance - WALK THE MOON",
+                "Uptown Funk - Mark Ronson ft. Bruno Mars",
+                "Electric Feel - MGMT",
+                "Blinding Lights - The Weeknd",
+                "Sugar - Maroon 5",
+                "On Top of the World - Imagine Dragons",
+                "Good Day - Nappy Roots"],
 
     "sad": ["Soft piano music", 
             "Lyrical ballads",
@@ -24,7 +32,14 @@ def test_recommend_music_valid_mood():
             "Wake Me Up When September Ends - Green Day",
             "To Build a Home - The Cinematic Orchestra",
             "The Scientist - Coldplay",
-            "Hard Sometimes - Ruel"],
+            "Hard Sometimes - Ruel",
+            "Someone Like You - Adele",
+            "Breathe Me - Sia",
+            "Je te laisserai des mots - Patrick Watson",
+            "Skinny Love - Bon Iver",
+            "Iris - Goo Goo Dolls",
+            "Creep (Acoustic) - Radiohead",
+            "All I Want - Kodaline"],
 
     "stressed": ["Nature sounds", 
                  "Calm instrumental music",
@@ -37,7 +52,13 @@ def test_recommend_music_valid_mood():
                  "Opus 23 - Dustin O'Halloran",
                  "Night Owl - Galimatias",
                  "Breathe Me - Sia",
-                 "Saturn - Sleeping at Last"],
+                 "Saturn - Sleeping at Last",
+                 "Einaudi: Nuvole Bianche - Ludovico Einaudi",
+        "First Love - Hikaru Utada",
+        "Mystery of Love - Sufjan Stevens",
+        "La Vie en Rose - Édith Piaf",
+        "Lost in Japan (Acoustic) - Shawn Mendes",
+        "Cold Little Heart - Michael Kiwanuka"],
 
     "bored": ["Jazz", 
               "Rock music",
@@ -50,8 +71,14 @@ def test_recommend_music_valid_mood():
               "Dance, Dance - Fall Out Boy",
               "Young Folks - Peter Bjorn and John",
               "Shut Up and Dance - WALK THE MOON",
-              "HandClap - Fitz and The Tantrums"],
-    
+              "HandClap - Fitz and The Tantrums",
+              "Tongue Tied - Grouplove",
+            "Take It Easy - Eagles",
+            "Float On - Modest Mouse",
+            "Do I Wanna Know? - Arctic Monkeys",
+            "Electric Love - BØRNS",
+            "Bad Habit - Steve Lacy"],
+        
     "motivated": ["Eye of the Tiger", 
                   "Stronger - Kanye West", 
                   "Lose Yourself - Eminem", 
@@ -61,7 +88,14 @@ def test_recommend_music_valid_mood():
                   "Remember the Name - Fort Minor", 
                   "Unstoppable - Sia", 
                   "Hall of Fame - The Script", 
-                  "Born to Run - Bruce Springsteen"],
+                  "Born to Run - Bruce Springsteen",
+                  "Survivor - Destiny's Child",
+            "Don't Stop Believin' - Journey",
+            "Roar - Katy Perry",
+            "Believer - Imagine Dragons",
+            "Defying Gravity - Idina Menzel",
+            "Thunderstruck - AC/DC",
+            "Started from the Bottom - Drake"],
 
     "angry": ["Break Stuff - Limp Bizkit", 
               "Killing in the Name - Rage Against the Machine", 
@@ -72,8 +106,16 @@ def test_recommend_music_valid_mood():
               "The Way I Am - Eminem", 
               "Before I Forget - Slipknot", 
               "Down with the Sickness - Disturbed", 
-              "Psychosocial - Slipknot"]
-    }
+              "Psychosocial - Slipknot",
+              "My Own Summer (Shove It) - Deftones",
+            "Freak on a Leash - Korn",
+            "No More Tears - Ozzy Osbourne",
+            "Sabotage - Beastie Boys",
+            "Break - Three Days Grace",
+            "Stressed Out - Twenty One Pilots",
+            "Monster - Skillet",
+            "Given Up - Linkin Park"]
+}
 
 
     for mood in music.keys():
