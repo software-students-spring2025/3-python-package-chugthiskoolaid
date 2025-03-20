@@ -36,42 +36,47 @@ You can import the Mood Recommender package into your projects using pip.
 Below is how to install the package:
 
 **1. Install the package from PyPI**
-```
+``` bash
 pip install mood-recommender
 ```
 
 **2. Import the functions in your Python code**
-```
+``` bash
 from mood_suggester import recommend_activity, recommend_book, recommend_movie, recommend_music
 ```
 ## Virtual Environment & Dependencies
 
 1️⃣ **Clone the Repository**
-```
+``` bash
 git clone https://github.com/software-students-spring2025/3-python-package-chugthiskoolaid.git
-cd mood-suggester
-
+cd 3-python-package-chugthiskoolaid
 ```
 
 2️⃣ **Create a Virtual Environment**
-```
+``` bash
 python -m venv venv
+```
+For MacOS/Linux:
+```bash
 source venv/bin/activate
-# Windows: venv\Scripts\activate
+```
+For Windows:
+```bash
+Windows: venv\Scripts\activate
 ```
 
 3️⃣ **Install Dependencies**
-```
-pip install -r requirements.txt
+```bash
+pip install -r .github/workflows/requirements.txt
 ```
 
 4️⃣ **Run Tests**
-```
+```bash
 pytest tests/
 ```
 
 5️⃣ Build the Package
-```
+```bash
 python setup.py sdist bdist_wheel
 ```
 
@@ -128,31 +133,34 @@ cd mood-recommender
 ### 3️⃣ Create a Virtual Environment
 ```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+```
+For MacOS/Linux:
+```bash
+source venv/bin/activate
+```
+For Windows:
+```bash
+Windows: venv\Scripts\activate
 ```
 
 ### 4️⃣ Install Dependencies
 ```bash
-pip install -r requirements.txt
-
+pip install -r .github/workflows/requirements.txt
 ```
 
 ### 5️⃣ Create a New Branch
 ```bash
 git checkout -b feature-branch
-
 ```
 
 ### 6️⃣ Make Your Changes
 ```bash
 git add .
 git commit -m "Add new feature"
-
 ```
 ### 7️⃣ Push Changes
 ```bash
-git push origin feature-branch
-
+git push origin feature-branchs
 ```
 
 ### 8️⃣ Submit a Pull Request
