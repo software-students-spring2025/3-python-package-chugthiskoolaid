@@ -17,11 +17,7 @@ ACTIVITY_RECOMMENDATIONS = {
                 "Write in a journal",
                 "Dance, sing along, or just vibe to the beat of your favorite playlist",
                 "Take a spontaneous trip to a nearby city or go on a road trip",
-                "Help a friend, volunteer, or surprise someone with a small gift",
-                "Watch a funny movie, read jokes, or play interactive games with friends",
-                "Write in a journal about your happiest memories or things you're grateful for",
-                "Visit an amusement park, zoo, or museum for a fun experience",
-                "Try adrenaline-rushing activities like zip-lining or indoor skydiving"],
+        
     
     "sad": ["Write in a journal", 
             "Meditate",
