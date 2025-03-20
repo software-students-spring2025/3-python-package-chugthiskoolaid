@@ -16,7 +16,7 @@ ACTIVITY_RECOMMENDATIONS = {
                 "Watch a funny movie, read jokes, or play games",
                 "Write in a journal",
                 "Dance, sing along, or just vibe to the beat of your favorite playlist",
-                "Take a spontaneous trip to a nearby city or go on a road trip",
+                "Take a spontaneous trip to a nearby city or go on a road trip"],
         
     
     "sad": ["Write in a journal", 
