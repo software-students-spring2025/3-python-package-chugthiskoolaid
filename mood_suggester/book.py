@@ -12,8 +12,13 @@ BOOK_RECOMMENDATIONS = {
         "The Hitchhiker’s Guide to the Galaxy – Douglas Adams",
         "Little Women – Louisa May Alcott",
         "Good Omens – Terry Pratchett & Neil Gaiman",
-        "The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared – Jonas Jonasson"],
-    
+        "The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared – Jonas Jonasson",
+        "The House in the Cerulean Sea – TJ Klune",
+        "The Book Thief – Markus Zusak",
+        "Wonder – R.J. Palacio",
+        "Matilda – Roald Dahl",
+        "The Secret Garden – Frances Hodgson Burnett"],
+
     "Sad": [
         "The Fault in Our Stars - John Green",
         "A Man Called Ove - Fredrik Backman",
@@ -26,8 +31,12 @@ BOOK_RECOMMENDATIONS = {
         "Big Panda and Tiny Dragon – James Norbury",
         "The Midnight Library – Matt Haig",
         "Winnie-the-Pooh – A.A. Milne",
-        "The Boy, the Mole, the Fox and the Horse – Charlie Mackesy"],
-    
+        "The Boy, the Mole, the Fox and the Horse – Charlie Mackesy",
+        "A Little Life – Hanya Yanagihara",
+        "Of Mice and Men – John Steinbeck",
+        "The Book Thief – Markus Zusak",
+        "Bridge to Terabithia – Katherine Paterson"],
+
     "Stressed": [
         "1984 - George Orwell",
         "Fahrenheit 451 - Ray Bradbury",
@@ -39,8 +48,13 @@ BOOK_RECOMMENDATIONS = {
         "The Body Keeps the Score – Bessel van der Kolk",
         "Anger: Wisdom for Cooling the Flames – Thich Nhat Hanh",
         "The Four Agreements – Don Miguel Ruiz",
-        "The Courage to Be Disliked – Ichiro Kishimi and Fumitake Koga"],
-    
+        "The Courage to Be Disliked – Ichiro Kishimi and Fumitake Koga",
+        "Ikigai – Héctor García & Francesc Miralles",
+        "Meditations – Marcus Aurelius",
+        "The Art of Happiness – Dalai Lama & Howard Cutler",
+        "Stillness Is the Key – Ryan Holiday",
+        "How to Stop Worrying and Start Living – Dale Carnegie"],
+
     "Bored": [
         "The Power of Now - Eckhart Tolle",
         "Daring Greatly - Brené Brown",
@@ -53,8 +67,12 @@ BOOK_RECOMMENDATIONS = {
         "Reasons to Stay Alive – Matt Haig",
         "Unwinding Anxiety – Judson Brewer",
         "Don't Feed the Monkey Mind – Jennifer Shannon",
-        "How to Do Nothing – Jenny Odell"],
-    
+        "How to Do Nothing – Jenny Odell",
+        "Sapiens: A Brief History of Humankind – Yuval Noah Harari",
+        "The Stranger – Albert Camus",
+        "Born a Crime – Trevor Noah",
+        "Surely You’re Joking, Mr. Feynman! – Richard Feynman"],
+
     "Motivated": [
         "Atomic Habits - James Clear",
         "The 7 Habits of Highly Effective People - Stephen R. Covey",
@@ -65,8 +83,14 @@ BOOK_RECOMMENDATIONS = {
         "Mindset: The New Psychology of Success - Carol S. Dweck",
         "Deep Work - Cal Newport",
         "The War of Art - Steven Pressfield",
-        "Start with Why - Simon Sinek"],
-    
+        "Start with Why - Simon Sinek",
+        "Make Your Bed – Admiral William H. McRaven",
+        "The Magic of Thinking Big – David J. Schwartz",
+        "Drive: The Surprising Truth About What Motivates Us – Daniel H. Pink",
+        "Tools of Titans – Tim Ferriss",
+        "Think and Grow Rich – Napoleon Hill",
+        "Awaken the Giant Within – Tony Robbins"],
+
     "Angry": [
         "The Dance of Anger - Harriet Lerner",
         "Why Zebras Don’t Get Ulcers - Robert Sapolsky",
@@ -77,8 +101,15 @@ BOOK_RECOMMENDATIONS = {
         "The Gifts of Imperfection - Brené Brown",
         "The Subtle Art of Not Giving a F*ck - Mark Manson",
         "How to Win Friends and Influence People - Dale Carnegie",
-        "Unfu*k Yourself - Gary John Bishop"]
+        "Unfu*k Yourself - Gary John Bishop",
+        "Rage Becomes Her – Soraya Chemaly",
+        "Letting Go: The Pathway of Surrender – David R. Hawkins",
+        "Nonviolent Communication – Marshall B. Rosenberg",
+        "The Art of War – Sun Tzu",
+        "The Wisdom of Insecurity – Alan Watts",
+        "The Laws of Human Nature – Robert Greene"]
 }
+
 """
     Given a mood, recommend a random activity from the corresponding category.
     
